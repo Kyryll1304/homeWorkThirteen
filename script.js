@@ -7,8 +7,11 @@ let stringTwo = prompt("String Three");
 console.log(string.concat(",", stringOne, ",", stringTwo));
 
 //Task two
-
-let numbers = 123456;
+let i = 0;
+let numbers = 28567;
 let digits = numbers.toString().split("");
-let clearDigits = digits.map(Number);
-console.log(clearDigits);
+console.log(digits.length);
+while (i < digits.length) {
+  console.log(digits[i]);
+  i++;
+}
