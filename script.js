@@ -10,8 +10,4 @@ console.log(string.concat(",", stringOne, ",", stringTwo));
 let i = 0;
 let numbers = 28567;
 let digits = numbers.toString().split("");
-console.log(digits.length);
-while (i < digits.length) {
-  console.log(digits[i]);
-  i++;
-}
+console.log(digits.join(" "));
